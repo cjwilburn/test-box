@@ -1,0 +1,1 @@
+Mostly empty vagrant box for testing purposes.
