@@ -26,7 +26,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
 
   # vagrant-omnibus (https://github.com/schisamo/vagrant-omnibus)
-  config.omnibus.chef_version = :latest if Vagrant.has_plugin?("Omnibus")
+  config.omnibus.chef_version = :latest if Vagrant.has_plugin?("vagrant-omnibus")
 
 
 end
